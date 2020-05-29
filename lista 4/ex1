@@ -19,4 +19,4 @@ for p in Sala:
     if p[1]<Menor:
         Menor=p[1]
 print('Alunos e Notas:\n',Sala)
-print(' N
+print(' Numero de alunos:{}\n Maior Nota:{}\n Menor Nota:{}\n Media:{}\n'.format(j, Maior, Menor, Media/j))
