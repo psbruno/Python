@@ -1,0 +1,10 @@
+import numpy as np
+mat=np.random.randint(-5,5,(4,3))
+seno=np.sin(mat)
+print('Valor Absoluto: {}\n'.format(abs(mat)))
+print('Seno: \n',np.sin(mat[0]))
+print('Valor Maximo: {}\n'.format(mat.max(0)))
+print('Somatorio de cada linha: {}\n'.format(mat.sum(1)))
+print('Somatorio de cada coluna: {}\n'.format(mat.sum(0)))
+print('Produto de cada coluna: {}\n'.format(mat.prod(0)))
+print(mat)
