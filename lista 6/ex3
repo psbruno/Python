@@ -1,0 +1,11 @@
+def buscamult(a,b):
+    if(a%b==0):
+        c=True
+    else:
+        c=False
+    return c
+#complemento para verificar
+a=int(input('insira o primeiro numero\n'))
+b=int(input('insria o segundo numero\n'))
+c=buscamult(a,b);
+print(c)
